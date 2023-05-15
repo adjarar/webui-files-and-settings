@@ -24,8 +24,8 @@ git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic11
 # Download Upscalers
 cd $MODELS_DIR/ESRGAN
 wget -q https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
-gdown --fuzzy https://drive.google.com/file/d/1t9S2_gcyhF9y7vYAW1F36fylOVSNi68c/
-gdown --fuzzy https://drive.google.com/file/d/17CLBnIjPplhXKl9jB_bKxo581tNwyB_m/
+gdown --fuzzy https://drive.google.com/file/d/1t9S2_gcyhF9y7vYAW1F36fylOVSNi68c/view?usp=share_link
+gdown --fuzzy https://drive.google.com/file/d/17CLBnIjPplhXKl9jB_bKxo581tNwyB_m/view?usp=share_link
 
 # VAE
 wget -q -P $MODELS_DIR/VAE \
