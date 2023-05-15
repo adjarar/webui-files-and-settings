@@ -10,8 +10,8 @@ rm -rf invokeai-settings
 
 # copy webui settings
 git clone https://github.com/adjarar/webui-settings.git
-mv webui-user-settings/* stable-diffusion-webui
-rm -rf webui-user-settings
+mv webui-settings/* stable-diffusion-webui
+rm -rf webui-settings
 
 # Install extensions
 cd $ROOT_DIR/extensions
