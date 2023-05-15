@@ -21,6 +21,9 @@ git clone https://github.com/Mikubill/sd-webui-controlnet.git
 git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser.git
 git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git
 
+# Download null model
+gdown --output $MODELS_DIR/Stable-diffusion --fuzzy https://drive.google.com/file/d/1Fw-0O1jcdO8Tvso0S-DnrZ1N837pU_DX/view?usp=share_link
+
 # Download Upscalers
 cd $MODELS_DIR/ESRGAN
 wget -q https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
