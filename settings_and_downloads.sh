@@ -1,14 +1,17 @@
 ROOT_DIR="/home/webui/stable-diffusion-webui"
 MODELS_DIR="$ROOT_DIR/models"
 
-# webui user settings
 cd /home/webui
+
+# copy invokeai settings
 git clone https://github.com/adjarar/invokeai-settings.git
 mv invokeai-settings/* invokeai/
 rm -rf invokeai-settings
 
-# Copy webui-user.sh
-mv webui-user.sh -f $ROOT_DIR/webui-user.sh
+# copy webui settings
+git clone https://github.com/adjarar/webui-user-settings.git
+mv webui-user-settings/* stable-diffusion-webui
+rm -rf webui-user-settings
 
 # Install extensions
 cd $ROOT_DIR/extensions
