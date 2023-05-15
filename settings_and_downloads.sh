@@ -9,7 +9,7 @@ mkdir $MODELS_DIR
 # rm -rf invokeai-settings
 
 # Copy webui-user.sh
-wget -q https://raw.githubusercontent.com/adjarar/webui-files-and-settings/main/webui-user.sh -O $ROOT_DIR/webui-user.sh
+mv webui-user.sh -O $ROOT_DIR/webui-user.sh
 
 # Install extensions
 cd $ROOT_DIR/extensions
