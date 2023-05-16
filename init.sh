@@ -25,6 +25,7 @@ git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic11
 gdown --output $MODELS_DIR/Stable-diffusion --fuzzy https://drive.google.com/file/d/1Fw-0O1jcdO8Tvso0S-DnrZ1N837pU_DX/view?usp=share_link
 
 # Download Upscalers
+mkdir $MODELS_DIR/ESRGAN
 cd $MODELS_DIR/ESRGAN
 wget -q https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
 gdown --fuzzy https://drive.google.com/file/d/1t9S2_gcyhF9y7vYAW1F36fylOVSNi68c/view?usp=share_link
