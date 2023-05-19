@@ -3,6 +3,9 @@ MODELS_DIR="$ROOT_DIR/models"
 
 cd /home/webui
 
+# get the txt2img-multidiffusion upscale script
+git clone https://github.com/adjarar/txt2img-multidiffusion-upscale.git
+
 # copy invokeai settings
 git clone https://github.com/adjarar/invokeai-settings.git
 mv invokeai-settings/* invokeai/
