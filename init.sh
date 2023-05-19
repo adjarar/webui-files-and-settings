@@ -3,6 +3,9 @@ MODELS_DIR="$ROOT_DIR/models"
 
 cd /home/webui
 
+# put this in the docker file later
+pip install discord.py pillow
+
 # get the txt2img-multidiffusion upscale script
 git clone https://github.com/adjarar/txt2img-multidiffusion-upscale.git
 
