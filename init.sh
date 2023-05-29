@@ -7,7 +7,7 @@ cd /home/webui
 pip install discord.py pillow
 
 # get the txt2img-multidiffusion upscale script
-git clone https://github.com/adjarar/txt2img-multidiffusion-upscale.git
+git clone https://github.com/adjarar/rpg_item_generation.git
 
 # copy invokeai settings
 git clone https://github.com/adjarar/invokeai-settings.git
