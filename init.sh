@@ -53,3 +53,6 @@ wget -q -P $MODELS_DIR/ControlNet \
 wget -q -P $MODELS_DIR/Stable-diffusion \
         https://huggingface.co/satoris/adam/resolve/main/sd1-5_adam-ep100-gs00900.ckpt \
         https://huggingface.co/satoris/sd-v1-5-adam-inpainting/resolve/main/sd-v1-5-adam-inpainting.ckpt
+        
+gdown https://civitai.com/api/download/models/67584 && \
+mv 67584 fantassifiedIcons_fantassifiedIconsV20.safetensors
